@@ -33,13 +33,7 @@ body {
 	font-weight: 400;
 	font-size: 32px;
 	line-height: 110%;
-	/* or 35px */
-
-
 	letter-spacing: 0.06em;
-
-	/* color-primary */
-
 	color: #F1CDB3;
 	text-align: center;
 }
@@ -93,21 +87,55 @@ body {
 	color: #FAFAFA;
 }
 
-.header-nav-menu-link {
-
-}
-
 .start-screen {
-	width: 1280px;
-	height: 908px;
+	width: 1200px;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 60px;
 }
+
 .start-screen-content {
+	display: flex;
+	flex-flow: column;
+	margin-top: 127px;
 }
+
 .start-screen-content-heading {
+	font-family: 'Georgia';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 44px;
+	line-height: 130%;
+	color: #FFFFFF;
+	width: 310px;
 }
+
 .start-screen-content-subheading {
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 160%;
+	color: #CDCDCD;
+	width: 470px;
+	margin-top: 4px;
 }
+
 .button-primary {
+	width: 207px;
+	height: 52px;
+	background: #F1CDB3;
+	border-radius: 100px;
+	text-align: center;
+
+	font-family: 'Georgia';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 17px;
+	line-height: 130%;
+	letter-spacing: 0.06em;
+	color: #292929;
+	margin-top: 42px;
 }
 .start-screen-dog {
 }
