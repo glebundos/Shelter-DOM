@@ -1,3 +1,13 @@
+html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, hgroup, menu, nav, section, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
 body {
 	margin: 0;
 	background-color: blueviolet;
@@ -44,13 +54,7 @@ body {
 	font-weight: 400;
 	font-size: 13px;
 	line-height: 15px;
-	/* identical to box height */
-
-
 	letter-spacing: 0.1em;
-
-	/* color-light-xl */
-
 	color: #FFFFFF;
 	margin-top: 10px;
 	text-align: center;
@@ -62,16 +66,7 @@ body {
 	font-weight: 400;
 	font-size: 15px;
 	line-height: 160%;
-	/* identical to box height, or 24px */
-
-
-	/* color-light-s */
-
 	color: #CDCDCD;
-
-
-	/* Inside auto layout */
-
 	flex: none;
 	order: 0;
 	flex-grow: 0;
@@ -85,6 +80,8 @@ body {
 
 .header-nav-menu-link-active {
 	color: #FAFAFA;
+	display: inline;
+  border-bottom: 3px solid #F1CDB3;
 }
 
 .start-screen {
@@ -97,7 +94,7 @@ body {
 .start-screen-content {
 	display: flex;
 	flex-flow: column;
-	margin-top: 127px;
+	margin-top: 163px;
 }
 
 .start-screen-content-heading {
@@ -118,7 +115,7 @@ body {
 	line-height: 160%;
 	color: #CDCDCD;
 	width: 470px;
-	margin-top: 4px;
+	margin-top: 42px;
 }
 
 .button-primary {
@@ -136,6 +133,8 @@ body {
 	letter-spacing: 0.06em;
 	color: #292929;
 	margin-top: 42px;
+	border: 1px;
 }
+
 .start-screen-dog {
 }
