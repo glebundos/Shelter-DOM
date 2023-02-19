@@ -220,11 +220,91 @@ body {
 	width: 54.5%;
 }
 
+/*==========================================================*/
+/*==========================================================*/
+/*==========================================================*/
+/*==========================================================*/
+/*==========================================================*/
+/*==========================================================*/
+/*==========================================================*/
+/*==========================================================*/
+.wrapper-2 {
+	background-color: #FFFFFF;
+	background-position: center;
+}
+
+.content-2 {
+	max-width: 1280px;
+	width: 100%;
+}
+
+.about {
+	display: flex;
+	padding-top: 80px;
+	padding-bottom: 100px;
+}
+
+.about-img {
+	margin-left: 215px;
+	width: 23.5%;
+}
+
+.about-content {
+	display: flex;
+	flex-flow: column;	
+	margin-left: 120px;
+}
+
+.about-content-heading {
+	font-family: 'Georgia';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 35px;
+	line-height: 130%;
+	letter-spacing: 0.06em;
+	color: #545454;
+	max-width: fit-content;
+	margin-top: 15px;
+}
+
+.about-content-subheading-1 {
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 160%;
+	color: #4C4C4C;
+	max-width: fit-content;
+	margin-top: 24px
+}
+
+.about-content-subheading-2 {
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 160%;
+	color: #4C4C4C;
+	max-width: fit-content;
+	margin-top: 24px
+}
+
+
+
+/*==========================================================*/
+/*==========================================================*/
+/*==========================================================*/
+/*==========================================================*/
+/*==========================================================*/
+/*==========================================================*/
+/*==========================================================*/
+/*==========================================================*/
+
 @media (max-width: 960px) {
 	.header {
 		margin-top: 30px;
 	}
-	
+
 	.header-logo {
 		padding-left: 30px;
 	}
@@ -257,9 +337,9 @@ body {
 	}
 
 	.start-screen-dog-img {
-    padding-right: 0;
+		padding-right: 0;
 		padding-left: 140px;
 		padding-top: 18px;
-    width: 74.2%;
+		width: 74.2%;
 	}
 }
