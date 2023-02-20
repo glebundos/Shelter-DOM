@@ -392,6 +392,82 @@ body {
 	margin-left: 1px;
 }
 
+/*==========================================================*/
+/*==========================================================*/
+/*==========================================================*/
+/*==========================================================*/
+/*==========================================================*/
+/*==========================================================*/
+/*==========================================================*/
+/*==========================================================*/
+
+
+.wrapper-4 {
+	background-color: #FFFFFF;
+}
+
+.content-4 {
+	max-width: 1280px;
+	min-height: 611px;
+	width: 100%;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: start;
+	margin-left: 3px;
+}
+
+.help-heading {
+	font-family: 'Georgia';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 35px;
+	line-height: 130%;
+	letter-spacing: 0.06em;
+	color: #545454;
+	text-align: center;
+	margin-top: 81px;
+}
+
+.help-list {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-between;
+	width: 80.4%;
+	min-height: 281px;
+	margin-top: 58px;
+}
+
+.help-list-card {
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: center;
+	margin-left: 120px;
+}
+
+.help-pet-food {
+	margin: 0px;
+}
+
+.help-vitamins {
+	margin-left: 84px;
+}
+
+.help-list-card-heading {
+	font-family: 'Georgia';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 115%;
+	text-align: center;
+	letter-spacing: 0.06em;
+	color: #545454;
+	margin-top: 30px;
+}
+
+
+
 @media (max-width: 960px) {
 	.header {
 		margin-top: 30px;
