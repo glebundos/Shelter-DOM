@@ -350,6 +350,7 @@ body {
 	display: flex;
 	flex-flow: column;
 	align-items: center;
+	border-radius: 9px;
 }
 
 .pets-slider-card-heading {
@@ -400,7 +401,6 @@ body {
 /*==========================================================*/
 /*==========================================================*/
 /*==========================================================*/
-
 
 .wrapper-4 {
 	background-color: #FFFFFF;
@@ -466,7 +466,113 @@ body {
 	margin-top: 30px;
 }
 
+/*==========================================================*/
+/*==========================================================*/
+/*==========================================================*/
+/*==========================================================*/
+/*==========================================================*/
+/*==========================================================*/
+/*==========================================================*/
+/*==========================================================*/
 
+
+.wrapper-5 {
+	background-color: #f6f6f6;
+}
+
+.content-5 {
+	max-width: 1280px;
+	min-height: 462px;
+	width: 100%;
+}
+
+.donation {
+	display: flex;
+	margin-top: 80px;
+	margin-left: 183px;
+}
+
+.donation-img {
+	margin-top: 11px;
+	height: 40%;
+}
+
+.donation-content {
+	display: flex;
+	flex-flow: column;
+	margin-left: 30px;
+}
+
+.donation-content-heading {
+	font-family: 'Georgia';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 35px;
+	line-height: 130%;
+	letter-spacing: 0.06em;
+	color: #545454;
+	margin-top: 1px;
+}
+
+.donation-content-subheading {
+	font-family: 'Georgia';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 110%;
+	letter-spacing: 0.06em;
+	color: #545454;
+	margin-top: 20px;
+}
+
+.donation-content-credentials {
+	width: 349px;
+	height: 43px;
+	background: #F1CDB3;
+	border-radius: 9px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 19px;
+}
+
+.donation-content-credentials-img {
+	margin-left: 15px;
+}
+
+.donation-content-credentials-number {
+	font-family: 'Georgia';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	letter-spacing: 0.06em;
+	color: #545454;
+	text-align: center;
+	width: fit-content;
+	margin-right: 15px;
+}
+
+.donation-content-legal-info {
+	font-family: 'Arial';
+	font-style: italic;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 18px;
+	color: #B2B2B2;
+	margin-top: 20px;
+}
+
+
+
+
+/*==========================================================*/
+/*==========================================================*/
+/*==========================================================*/
+/*==========================================================*/
+/*==========================================================*/
+/*==========================================================*/
+/*==========================================================*/
+/*==========================================================*/
 
 @media (max-width: 960px) {
 	.header {
