@@ -574,6 +574,128 @@ body {
 /*==========================================================*/
 /*==========================================================*/
 
+.footer {
+	max-width: 1280px;
+	min-height: 350px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.footer-content {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	margin: 40px 40px 0 40px;
+}
+
+.footer-content-contacts {
+	font-family: 'Georgia';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 115%;
+	letter-spacing: 0.06em;
+	color: #F1CDB3;
+}
+
+.footer-content-contacts-heading {
+	font-family: 'Georgia';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 35px;
+	line-height: 130%;
+	letter-spacing: 0.06em;
+	color: #FFFFFF;
+
+	margin-top: 17px;
+}
+
+.footer-content-contacts-email {
+	display: flex;
+	margin-top: 41px;
+}
+
+.footer-content-contacts-email-img {
+
+}
+
+.footer-content-contacts-email-address {
+	margin-top: 2px;
+	margin-left: 20px;
+}
+
+.footer-content-contacts-phone {
+	display: flex;
+	margin-top: 43px;
+}
+
+.footer-content-contacts-phone-img {
+}
+
+.footer-content-contacts-phone-number {
+	margin-top: 5px;
+	margin-left: 20px;
+}
+
+.footer-content-locations {
+	font-family: 'Georgia';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 115%;
+	letter-spacing: 0.06em;
+	color: #F1CDB3;
+
+	margin-right: 4px;
+}
+
+.footer-content-locations-heading {
+	font-family: 'Georgia';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 35px;
+	line-height: 130%;
+	letter-spacing: 0.06em;
+	color: #FFFFFF;
+
+	margin-top: 17px;
+}
+
+.footer-content-locations-address-1 {
+	display: flex;
+	margin-top: 31px;
+	margin-right: 4px;
+}
+
+.footer-content-locations-address-1-img {
+}
+
+.footer-content-locations-address-1-address {
+	margin-left: 20px;
+}
+
+.footer-content-locations-address-2 {
+	display: flex;
+	margin-top: 33px;
+	margin-right: 4px;
+}
+
+.footer-content-locations-address-2-img {
+
+}
+
+.footer-content-locations-address-2-address {
+	margin-top: 5px;
+	margin-left: 20px;
+}
+
+.footer-content-img {
+	width: 25%;
+}
+
+
+
 @media (max-width: 960px) {
 	.header {
 		margin-top: 30px;
