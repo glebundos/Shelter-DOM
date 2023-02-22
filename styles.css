@@ -228,6 +228,7 @@ body {
 /*==========================================================*/
 /*==========================================================*/
 /*==========================================================*/
+
 .wrapper-2 {
 	background-color: #FFFFFF;
 	background-position: center;
@@ -240,18 +241,21 @@ body {
 
 .about {
 	display: flex;
+	align-items: center;
 	padding-top: 80px;
 	padding-bottom: 100px;
+	width: 100%;
 }
 
 .about-img {
-	margin-left: 215px;
+	padding-left: 215px;
 	width: 23.5%;
+	height: 100%;
 }
 
 .about-content {
 	display: flex;
-	flex-flow: column;	
+	flex-flow: column;
 	margin-left: 120px;
 }
 
@@ -264,7 +268,6 @@ body {
 	letter-spacing: 0.06em;
 	color: #545454;
 	max-width: fit-content;
-	margin-top: 15px;
 }
 
 .about-content-subheading-1 {
@@ -408,12 +411,11 @@ body {
 
 .content-4 {
 	max-width: 1280px;
-	min-height: 611px;
 	width: 100%;
 	display: flex;
 	flex-flow: column;
 	align-items: center;
-	justify-content: start;
+	justify-content: flex-start;
 	margin-left: 3px;
 }
 
@@ -436,6 +438,7 @@ body {
 	width: 80.4%;
 	min-height: 281px;
 	margin-top: 58px;
+	margin-bottom: 100px;
 }
 
 .help-list-card {
@@ -616,9 +619,7 @@ body {
 	margin-top: 41px;
 }
 
-.footer-content-contacts-email-img {
-
-}
+.footer-content-contacts-email-img {}
 
 .footer-content-contacts-email-address {
 	margin-top: 2px;
@@ -630,8 +631,7 @@ body {
 	margin-top: 43px;
 }
 
-.footer-content-contacts-phone-img {
-}
+.footer-content-contacts-phone-img {}
 
 .footer-content-contacts-phone-number {
 	margin-top: 5px;
@@ -668,8 +668,7 @@ body {
 	margin-right: 4px;
 }
 
-.footer-content-locations-address-1-img {
-}
+.footer-content-locations-address-1-img {}
 
 .footer-content-locations-address-1-address {
 	margin-left: 20px;
@@ -681,9 +680,7 @@ body {
 	margin-right: 4px;
 }
 
-.footer-content-locations-address-2-img {
-
-}
+.footer-content-locations-address-2-img {}
 
 .footer-content-locations-address-2-address {
 	margin-top: 5px;
@@ -738,4 +735,94 @@ body {
 		padding-top: 18px;
 		width: 74.2%;
 	}
+
+	/*==========================================================*/
+	/*==========================================================*/
+	/*==========================================================*/
+	/*==========================================================*/
+	/*==========================================================*/
+	/*==========================================================*/
+	/*==========================================================*/
+	/*==========================================================*/
+
+
+	.content-2 {
+		display: flex;
+		justify-content: center;
+	}
+	
+	.about {
+		flex-flow: column-reverse;
+		width: fit-content;
+	}
+
+	.about-content {
+		margin-left: 0;
+		margin-top: 1px;
+		margin-right: 10px;
+	}
+
+	.about-img {
+		padding: 0;
+		margin-top: 80px;
+		width: 70%;
+	}
+
+	/*==========================================================*/
+	/*==========================================================*/
+	/*==========================================================*/
+	/*==========================================================*/
+	/*==========================================================*/
+	/*==========================================================*/
+	/*==========================================================*/
+	/*==========================================================*/
+
+	.pets-slider {
+		width: 92.3%;
+	}
+	
+	.pets-slider-cards {
+		width: 81.5%;
+	}
+
+	.pets-slider-card-3 {
+		display: none;
+	}
+
+	/*==========================================================*/
+	/*==========================================================*/
+	/*==========================================================*/
+	/*==========================================================*/
+	/*==========================================================*/
+	/*==========================================================*/
+	/*==========================================================*/
+	/*==========================================================*/
+
+
+	.help-list {
+		display: flex;
+		flex-flow: row wrap;
+		width: 90%;
+		align-content: space-between;
+		justify-content: space-between;
+		min-height: 449px;
+	}
+
+	.help-list-card {
+		width: 33.33%;
+		margin: 0;
+	}
+
+	.help-vitamins {
+		margin: 0;
+	}
+
+	/*==========================================================*/
+	/*==========================================================*/
+	/*==========================================================*/
+	/*==========================================================*/
+	/*==========================================================*/
+	/*==========================================================*/
+	/*==========================================================*/
+	/*==========================================================*/
 }
