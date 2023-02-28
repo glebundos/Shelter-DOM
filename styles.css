@@ -141,7 +141,7 @@ body {
 	width: 75%;
 	align-items: center;
 	margin-bottom: 3px;
-	padding-right: 40px;
+	padding-right: 42px;
 	justify-content: flex-end;
 }
 
@@ -154,6 +154,7 @@ body {
 	color: #FAFAFA;
 	display: inline;
 	border-bottom: 3px solid #F1CDB3;
+	margin-top: 1px;
 }
 
 .start-screen {
@@ -243,7 +244,7 @@ body {
 	display: flex;
 	align-items: center;
 	padding-top: 80px;
-	padding-bottom: 100px;
+	padding-bottom: 101px;
 	width: 100%;
 }
 
@@ -278,7 +279,8 @@ body {
 	line-height: 160%;
 	color: #4C4C4C;
 	max-width: fit-content;
-	margin-top: 24px
+	margin-top: 24px;
+	width: 66%;
 }
 
 .about-content-subheading-2 {
@@ -289,7 +291,8 @@ body {
 	line-height: 160%;
 	color: #4C4C4C;
 	max-width: fit-content;
-	margin-top: 24px
+	margin-top: 24px;
+	width: 66%;
 }
 
 
@@ -563,6 +566,7 @@ body {
 	line-height: 18px;
 	color: #B2B2B2;
 	margin-top: 20px;
+	width: 66%;
 }
 
 
@@ -612,6 +616,7 @@ body {
 	color: #FFFFFF;
 
 	margin-top: 17px;
+	width: 66%;
 }
 
 .footer-content-contacts-email {
@@ -647,7 +652,7 @@ body {
 	letter-spacing: 0.06em;
 	color: #F1CDB3;
 
-	margin-right: 4px;
+	margin-right: 47px;
 }
 
 .footer-content-locations-heading {
@@ -660,6 +665,7 @@ body {
 	color: #FFFFFF;
 
 	margin-top: 17px;
+	width: 66%;
 }
 
 .footer-content-locations-address-1 {
@@ -757,15 +763,23 @@ body {
 	}
 
 	.about-content {
-		margin-left: 0;
+		margin-left: 169px;
 		margin-top: 1px;
 		margin-right: 10px;
+	}
+
+	.about-content-subheading-1 {
+		width: 72%;
+	}
+
+	.about-content-subheading-2 {
+		width: 72%;
 	}
 
 	.about-img {
 		padding: 0;
 		margin-top: 80px;
-		width: 70%;
+		width: 39%;
 	}
 
 	/*==========================================================*/
@@ -836,7 +850,19 @@ body {
 	.donation-content {
 		margin: 0;
 		width: fit-content;
-		margin-right: 20px;
+		margin-left: 194px;
+	}
+
+	.donation-content-heading {
+		width: 51%;
+	}
+
+	.donation-content-subheading {
+		width: 54%;
+	}
+
+	.donation-content-legal-info {
+		width: 63%;
 	}
 
 	.donation-img {
@@ -863,16 +889,28 @@ body {
 	}
 
 	.footer-content-contacts {
-    margin-right: 61px;
+    margin: 0;
+		margin-right: 31px;
+		margin-left: 5px;
+		width: 40%;
+	}
+
+	.footer-content-contacts-heading {
+		width: 100%;
 	}
 
 	.footer-content-locations {
 		margin: 0;
-		margin-right: 5px;
+		width: 40%;
 	}
 	
+	.footer-content-locations-heading {
+		width: 100%;
+	}
+
 	.footer-content-img {
 		margin-top: 67px;
 		width: 39%;
 	}
 }
+
