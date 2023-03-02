@@ -756,7 +756,7 @@ body {
 		display: flex;
 		justify-content: center;
 	}
-	
+
 	.about {
 		flex-flow: column-reverse;
 		width: fit-content;
@@ -794,7 +794,7 @@ body {
 	.pets-slider {
 		width: 92.3%;
 	}
-	
+
 	.pets-slider-cards {
 		width: 81.5%;
 	}
@@ -889,7 +889,7 @@ body {
 	}
 
 	.footer-content-contacts {
-    margin: 0;
+		margin: 0;
 		margin-right: 31px;
 		margin-left: 5px;
 		width: 40%;
@@ -903,7 +903,7 @@ body {
 		margin: 0;
 		width: 40%;
 	}
-	
+
 	.footer-content-locations-heading {
 		width: 100%;
 	}
@@ -919,7 +919,7 @@ body {
 		padding: 0;
 		padding-left: 10px;
 	}
-	
+
 	.header-nav-menu {
 		display: none;
 	}
@@ -965,12 +965,12 @@ body {
 		padding-top: 42px;
 		padding-bottom: 42px;
 	}
-	
+
 	.about-content {
 		align-items: center;
 		margin: 0;
 	}
-	
+
 	.about-content-heading {
 		font-size: 25px;
 		text-align: center;
@@ -1010,7 +1010,7 @@ body {
 		font-size: 25px;
 		padding-left: 1px;
 	}
-	
+
 	.pets-slider {
 		display: flex;
 		flex-flow: row wrap;
@@ -1026,15 +1026,14 @@ body {
 	.pets-slider-right-button {
 		margin-top: 20px;
 	}
-	
+
 	.pets-slider-cards {
 		order: -1;
 		width: 92%;
 		margin-left: 1px;
 	}
 
-	.pets-slider-card-1 {
-	}
+	.pets-slider-card-1 {}
 
 	.pets-slider-card-1-img {
 		width: 100%;
@@ -1065,7 +1064,7 @@ body {
 		margin: 0;
 		height: 745px;
 	}
-	
+
 	.help-heading {
 		font-size: 25px;
 		margin-top: 43px;
@@ -1079,7 +1078,7 @@ body {
 		margin-bottom: 42px;
 		align-content: space-between;
 	}
-	
+
 	.help-list-card-heading {
 		font-size: 15px;
 		margin-top: 20px;
@@ -1089,7 +1088,7 @@ body {
 		width: 50%;
 		justify-content: space-between;
 	}
-	
+
 	.help-list-card-img {
 		width: 32%;
 	}
@@ -1112,14 +1111,14 @@ body {
 		margin: 0;
 		align-items: center;
 	}
-	
+
 	.donation-content-heading {
 		font-size: 25px;
 		text-align: center;
 		width: 100%;
 	}
 
-	.donation-content-subheading{
+	.donation-content-subheading {
 		width: 100%;
 		font-family: 'Georgia';
 		font-style: normal;
@@ -1148,7 +1147,7 @@ body {
 	.donation-img {
 		width: 81.5%;
 		margin-top: 42px;
-    margin-bottom: 42px;
+		margin-bottom: 42px;
 	}
 
 	/*==========================================================*/
@@ -1210,6 +1209,4 @@ body {
 		margin-top: 38px;
 		margin-left: 29px;
 	}
-
-
 }
