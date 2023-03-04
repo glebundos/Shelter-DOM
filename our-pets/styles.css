@@ -451,3 +451,193 @@ a:active {
 .footer-content-img {
 	width: 25%;
 }
+
+@media (max-width: 960px) {
+	.header-logo {
+		padding-left: 30px;
+	}
+
+	.header-nav-menu {
+		padding-right: 31px;
+	}
+
+/*==========================================================*/
+/*==========================================================*/
+/*==========================================================*/
+/*==========================================================*/
+/*==========================================================*/
+/*==========================================================*/
+/*==========================================================*/
+/*==========================================================*/
+
+	.pets-list {
+		margin-top: 13px;
+		width: 75.5%;
+	}
+
+	.scarlett {
+		display: none;
+	}
+
+	.freddie {
+		display: none;
+	}
+
+	.pets-navbar {
+		width: 44.4%;
+		margin-top: 24px;
+		margin-bottom: 75px;
+	}
+
+	/*==========================================================*/
+	/*==========================================================*/
+	/*==========================================================*/
+	/*==========================================================*/
+	/*==========================================================*/
+	/*==========================================================*/
+	/*==========================================================*/
+	/*==========================================================*/
+
+
+	.footer-content {
+		justify-content: center;
+		align-content: space-between;
+		flex-wrap: wrap;
+		margin: 0;
+		margin-top: 13px;
+	}
+
+	.footer-content-contacts {
+		margin: 0;
+		margin-right: 31px;
+		margin-left: 5px;
+		width: 40%;
+	}
+
+	.footer-content-contacts-heading {
+		width: 100%;
+	}
+
+	.footer-content-locations {
+		margin: 0;
+		width: 40%;
+	}
+
+	.footer-content-locations-heading {
+		width: 100%;
+	}
+
+	.footer-content-img {
+		margin-top: 67px;
+		width: 39%;
+	}
+}
+
+@media (max-width: 690px) {
+
+	.header-logo {
+		padding-left: 10px;
+	}
+	
+	.header-nav-menu {
+		display: none;
+	}
+
+	.pets {
+		margin-top: 42px;
+	}
+
+	.pets-heading {
+		font-family: 'Georgia';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 25px;
+		line-height: 130%;
+		text-align: center;
+		letter-spacing: 0.06em;
+		color: #545454;
+	}
+
+	.pets-list {
+		margin-top: 26px;
+		justify-content: center;
+	}
+
+	.sophia {
+		display: none;
+	}
+
+	.timmy {
+		display: none;
+	}
+
+	.charly {
+		display: none;
+	}
+
+	.pets-navbar {
+		width: 93%;
+		margin-top: 27px;
+		margin-bottom: 39px;
+	}
+
+	/*==========================================================*/
+	/*==========================================================*/
+	/*==========================================================*/
+	/*==========================================================*/
+	/*==========================================================*/
+	/*==========================================================*/
+	/*==========================================================*/
+	/*==========================================================*/
+
+	.footer-content {
+		justify-content: flex-start;
+		align-content: flex-start;
+		flex-flow: column nowrap;
+	}
+
+	.footer-content-contacts {
+		width: 100%;
+		margin: 0;
+		display: flex;
+		flex-flow: column nowrap;
+		align-items: center;
+	}
+
+	.footer-content-contacts-heading {
+		font-size: 25px;
+		text-align: center;
+	}
+
+	.footer-content-locations {
+		width: 100%;
+		margin: 0;
+		display: flex;
+		flex-flow: column nowrap;
+		align-items: center;
+		margin-top: 25px;
+	}
+
+	.footer-content-locations-heading {
+		font-size: 25px;
+		text-align: center;
+		width: 90%;
+	}
+
+	.footer-content-locations-address-1 {
+		margin-top: 38px;
+		margin-right: 5px;
+	}
+
+	.footer-content-locations-address-2 {
+		margin-top: 40px;
+		margin-right: 31px;
+	}
+
+	.footer-content-img {
+		width: 82%;
+		margin: 0;
+		margin-top: 38px;
+		margin-left: 29px;
+	}
+}
