@@ -152,6 +152,30 @@ body {
 	margin-top: 1px;
 }
 
+a:link {
+	color: #545454;
+	text-decoration: none;
+}
+
+
+a:visited {
+	color: #545454;
+	text-decoration: none;
+}
+
+
+a:hover {
+	color: #545454;
+	text-decoration: none;
+}
+
+
+a:active {
+	color: #545454;
+	text-decoration: none;
+}
+
+
 /*==========================================================*/
 /*==========================================================*/
 /*==========================================================*/
@@ -285,7 +309,7 @@ body {
 .button-inactive {
 	border: 2px solid #CDCDCD;
 	color: #CDCDCD;
-} 
+}
 
 .button-inactive:hover {
 	background: transparent;

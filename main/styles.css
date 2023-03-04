@@ -157,6 +157,29 @@ body {
 	margin-top: 1px;
 }
 
+a:link {
+	color: #CDCDCD;
+	text-decoration: none;
+}
+
+
+a:visited {
+	color: #CDCDCD;
+	text-decoration: none;
+}
+
+
+a:hover {
+	color: #CDCDCD;
+	text-decoration: none;
+}
+
+
+a:active {
+	color: #CDCDCD;
+	text-decoration: none;
+}
+
 .start-screen {
 	width: 100%;
 	display: flex;
