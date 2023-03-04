@@ -231,6 +231,11 @@ body {
 	color: #292929;
 }
 
+.button-secondary:hover {
+	background: #FDDCC4;
+	border-color: #FDDCC4;
+}
+
 .pets-list-card-button {
 	margin-top: 30px;
 }
@@ -251,7 +256,7 @@ body {
 	margin-bottom: 97px;
 }
 
-.pets-navbar-button-active {
+.pets-navbar-button {
 	width: 52px;
 	height: 52px;
 	border: 2px solid #F1CDB3;
@@ -261,25 +266,35 @@ body {
 	vertical-align: middle;
 }
 
+.pets-navbar-button:hover {
+	background-color: #FDDCC4;
+	border-color: #FDDCC4;
+}
+
 .pets-navbar-page-number {
 	width: 51px;
 	height: 51px;
-	border: 2px solid #F1CDB3;
+	border: 2px solid #FDDCC4;
 	border-radius: 100px;
-	background: #F1CDB3;
+	background: #FDDCC4;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
-.pets-navbar-button-inactive {
-	width: 52px;
-	height: 52px;
+.button-inactive {
 	border: 2px solid #CDCDCD;
-	border-radius: 100px;
-	background: transparent;
 	color: #CDCDCD;
-	font-size: 20px;
+} 
+
+.button-inactive:hover {
+	background: transparent;
+	border-color: #CDCDCD;
+}
+
+.button-active {
+	background: #F1CDB3;
+	border-color: #F1CDB3;
 }
 
 
