@@ -76,26 +76,51 @@
 	</div>
 	<div class="wrapper wrapper-3">
 		<div class="content-3">
+			<!-- Модальное окно -->
+			<div class="modal" id="modal-one" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-dialog-header">
+						<a href="#close" class="btn-close button-secondary" aria-hidden="true">×</a>
+					</div>
+					<div class="modal-dialog-body">
+						<img src="assets/pets-jennifer.png" alt="" class="modal-dialog-body-img">
+						<div class="modal-dialog-body-info">
+							<div class="modal-dialog-body-info-main">
+								<div class="modal-dialog-body-info-main-heading">Jennifer</div>
+								<div class="modal-dialog-body-info-main-subheading">Dog - Labrador</div>
+							</div>
+							<div class="modal-dialog-body-info-story">Jennifer is a sweet 2 months old Labrador that is patiently waiting to find a new forever home. This girl really enjoys being able to go outside to run and play, but won't hesitate to play up a storm in the house if she has all of her favorite toys.</div>
+							<ul class="modal-dialog-body-info-list">
+								<li class="modal-dialog-body-info-list-i"><b>Age: </b>2 months</li>
+								<li class="modal-dialog-body-info-list-i"><b>Inoculations: </b>none</li>
+								<li class="modal-dialog-body-info-list-i"><b>Diseases: </b>none</li>
+								<li class="modal-dialog-body-info-list-i"><b>Parasites: </b>none</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- / Модальное окно -->
 			<h3 class="pets-heading">Our friends who<br>
 				are looking for a house</h3>
 			<div class="pets-slider">
 				<button class="pets-slider-left-button">&#11014;</button>
 				<div class="pets-slider-cards">
-					<div class="pets-slider-card pets-slider-card-1">
+					<a class="pets-slider-card pets-slider-card-1" href="#modal-one">
 						<img src="assets/pets-katrine.png" alt="katrine" class="pets-slider-card-1-img">
 						<div class="pets-slider-card-heading">Katrine</div>
 						<button class="button-secondary pets-slider-card-button">Learn more</button>
-					</div>
-					<div class="pets-slider-card pets-slider-card-2">
+					</a>
+					<a class="pets-slider-card pets-slider-card-2" href="#modal-two">
 						<img src="assets/pets-jennifer.png" alt="jennifer" class="">
 						<div class="pets-slider-card-heading">Jennifer</div>
 						<button class="button-secondary pets-slider-card-button">Learn more</button>
-					</div>
-					<div class="pets-slider-card pets-slider-card-3">
+					</a>
+					<a class="pets-slider-card pets-slider-card-3" href="#modal-three">
 						<img src="assets/pets-woody.png" alt="woody" class="">
 						<div class="pets-slider-card-heading">Woody</div>
 						<button class="button-secondary pets-slider-card-button">Learn more</button>
-					</div>
+					</a>
 				</div>
 				<button class="pets-slider-right-button">&#11014;</button>
 			</div>
