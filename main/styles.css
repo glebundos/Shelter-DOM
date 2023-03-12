@@ -479,6 +479,7 @@ a:active {
 	margin-left: 1px;
 }
 
+/* CSS для модального окна */
 .btn-modal {
 	background: #ff9500;
 	border: #e08403 solid 1px;
@@ -497,7 +498,7 @@ a:active {
 	background: #e08403
 }
 
-/* CSS для модального окна */
+
 .modal:before {
 	content: "";
 	display: none;
@@ -521,8 +522,8 @@ a:active {
 	border-radius: 5px;
 	position: fixed;
 	z-index: 11;
-	width: 952px;
-	height: 552px;
+	width: 74%;
+	height: 61%;
 	top: 6.4%;
 	left: 14.8%;
 
@@ -561,12 +562,12 @@ a:active {
 }
 
 .modal-dialog-body {
-	width: 900px;
-	height: 500px;
 	background-color: #FAFAFA;
 	border-radius: 9px;
 	display: flex;
 	justify-content: space-between;
+	width: 95%;
+	height: 90%;
 }
 
 .modal-dialog-body-img {
@@ -592,10 +593,7 @@ a:active {
 	font-weight: 400;
 	font-size: 35px;
 	line-height: 130%;
-	/* or 45px */
-
 	letter-spacing: 0.06em;
-
 	color: #000000;
 	width: fit-content;
 }
@@ -606,10 +604,7 @@ a:active {
 	font-weight: 400;
 	font-size: 20px;
 	line-height: 115%;
-	/* identical to box height, or 23px */
-	
 	letter-spacing: 0.06em;
-	
 	color: #000000;
 	width: fit-content;
 	margin-top: 8px;
@@ -621,10 +616,7 @@ a:active {
 	font-weight: 400;
 	font-size: 15px;
 	line-height: 110%;
-	/* or 17px */
-
 	letter-spacing: 0.06em;
-
 	color: #000000;
 	margin-top: 40px;
 }
@@ -636,10 +628,7 @@ a:active {
 	font-weight: 400;
 	font-size: 15px;
 	line-height: 110%;
-	/* identical to box height, or 17px */
-
 	letter-spacing: 0.06em;
-
 	color: #000000;
 	margin-top: 43px;
 	list-style: none;
@@ -661,7 +650,6 @@ li::before {
 	height: 42.5%;
 }
 
-/*добавляем, чтобы остановить прокручивание вверх*/
 #close {
 	display: none
 }	
